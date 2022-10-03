@@ -50,9 +50,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* DEBUG */
-  height: 80px;
-  background-color: blueviolet;
+  padding-top: 30px;
 }
 
 /* Hero Text Styling */
@@ -76,6 +74,7 @@
   text-align: center;
 }
 
+/* Hero buttons styling */
 .cta-btn {
   display: flex;
   justify-content: center;
@@ -102,12 +101,13 @@
   margin: 20px;
 }
 
+/* Hero text and buttons alignment */
 .content-align {
   display: flex;
   justify-content: center;
 }
 
-/* Section 2 styling */
+/* Sections with img styling */
 
 .content-row img {
   max-width: 50%;
@@ -146,10 +146,7 @@
   text-align: center;
 }
 
-#bottom-img {
-  width: 100%;
-}
-
+/* Fourth section styling */
 .bottom-flex {
   padding: 100px;
   display: flex;
@@ -180,6 +177,7 @@
   padding-bottom: 150px;
 }
 
+/* Footer styling */
 footer {
   background-color: rgb(35, 39, 42);
   padding: 70px 0;
