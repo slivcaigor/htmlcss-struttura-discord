@@ -143,4 +143,39 @@
 .grey-background {
   background-color: rgb(246, 246, 246);
   margin-top: 100px;
+  text-align: center;
+}
+
+#bottom-img {
+  width: 100%;
+}
+
+.bottom-flex {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bottom-flex img {
+  padding: 30px;
+}
+
+.text-above-cta h3 {
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+.text-above-cta a {
+  font-size: 30px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: rgb(114, 137, 218);
+  color: white;
+  border-radius: 25px;
+}
+
+.text-above-cta {
+  text-align: center;
+  padding-bottom: 150px;
 }
