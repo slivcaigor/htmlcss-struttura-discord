@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-.content-align {
+.align-center {
   width: 70%;
   margin: auto;
 }
@@ -14,7 +14,7 @@
 .header-bg {
   background-color: rgb(37, 94, 233);
   /* DEBUG */
-  height: 500px;
+  height: 550px;
 }
 
 /* Main Nav Styling */
@@ -55,4 +55,55 @@
   /* DEBUG */
   height: 80px;
   background-color: blueviolet;
+}
+
+/* Hero Text Styling */
+
+.hero-text {
+  width: 60%;
+  justify-content: center;
+  padding: 120px 0px 0px;
+}
+
+.hero-text h1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.hero-subheading {
+  color: white;
+  font-size: 20px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.cta-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-download {
+  background-color: white;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px;
+}
+
+.btn-browser-open {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.content-align {
+  display: flex;
+  justify-content: center;
 }
