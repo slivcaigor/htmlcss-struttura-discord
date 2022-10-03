@@ -13,8 +13,6 @@
 /* Header Section Styling */
 .header-bg {
   background-color: rgb(37, 94, 233);
-  /* DEBUG */
-  height: 550px;
 }
 
 /* Main Nav Styling */
@@ -81,6 +79,7 @@
 .cta-btn {
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .btn-download {
@@ -106,4 +105,42 @@
 .content-align {
   display: flex;
   justify-content: center;
+}
+
+/* Section 2 styling */
+
+.content-row img {
+  max-width: 50%;
+  padding: 50px;
+  align-self: center;
+}
+
+.content-row {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
+.content-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-row-text {
+  font-size: 50px;
+}
+
+.content-row-subheading {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+#img-right {
+  order: 1;
+}
+
+.grey-background {
+  background-color: rgb(246, 246, 246);
+  margin-top: 100px;
 }
