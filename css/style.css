@@ -1,0 +1,58 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content-align {
+  width: 70%;
+  margin: auto;
+}
+
+/* Header Section Styling */
+.header-bg {
+  background-color: rgb(37, 94, 233);
+  /* DEBUG */
+  height: 500px;
+}
+
+/* Main Nav Styling */
+#logo {
+  width: 100px;
+}
+
+#login {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.main-menu li {
+  list-style-type: none;
+}
+
+.main-menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.main-menu {
+  display: flex;
+  min-width: 600px;
+  justify-content: space-between;
+}
+
+.header-menu {
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* DEBUG */
+  height: 80px;
+  background-color: blueviolet;
+}
